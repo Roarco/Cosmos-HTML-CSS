@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
     <title>Log in | Cosmos</title>
 </head>
+
 <body>
     <main class="main">
-        
+        <form class="form">
+            <p class="title">Log in</p>
+            <input type="number" required placeholder="Username" name="code" autofocus />
+            <input type="password" required placeholder="Password" name="IDNumber" />
+            <select name="type_of_user">
+                <option value="1">Estudiante</option>
+                <option value="2">Administrativo</option>
+            </select>
+            <button class="form_btn">
+                <span class="form_btn form_btn--state">Log in</span>
+            </button>
+        </form>
     </main>
 </body>
+
 </html>
