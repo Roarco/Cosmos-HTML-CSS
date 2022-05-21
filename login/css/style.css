@@ -11,9 +11,8 @@ html {
 body {
     font-family: "Open Sans", sans-serif;
     height: 100vh;
-    background: url("../assets/images/tinified/background.jpg") 50% fixed;
+    background: url("../assets/images/tinified/background.webp") 50% fixed;
     background-size: cover;
-    margin: 0;
 }
 
 .main {
@@ -23,7 +22,6 @@ body {
     justify-content: center;
     width: 100%;
     min-height: 100%;
-    padding: 2rem;
     background: rgba(4, 40, 68, 0.85);
 }
 
